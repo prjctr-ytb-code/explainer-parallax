@@ -1,0 +1,3 @@
+.icon-play::before {
+    content: url('../icons/play.svg');
+}

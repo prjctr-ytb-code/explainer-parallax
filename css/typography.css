@@ -1,0 +1,18 @@
+.text {
+    font-family: 'Aeroport', sans-serif;
+    line-height: normal;
+    font-weight: 300;
+    color: #fff;
+}
+
+.text_size_small {
+    font-size: 0.875rem;
+}
+
+.text_size_medium {
+    font-size: 2.25rem;
+}
+
+.text_uppercase {
+    text-transform: uppercase;
+}

@@ -1,0 +1,19 @@
+.parallax {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    background-image: url('../img/girl-without-background.png'),
+    url('../img/background-without-girl.png');
+    background-size: 90%, 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    contain: layout;
+}
+
+.parallax::before {
+    content: url('../icons/play.svg');
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -3rem);
+}
